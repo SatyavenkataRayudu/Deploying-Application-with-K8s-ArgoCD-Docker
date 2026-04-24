@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: satyavenkata/demo-app1:v2.0
+        image: satyavenkata/demo-app1:v3.0
         ports:
         - containerPort: 8080
         livenessProbe:
