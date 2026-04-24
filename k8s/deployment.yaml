@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: <YOUR_DOCKERHUB_USERNAME>/demo-app:latest
+        image: satyavenkata/demo-app:latest
         ports:
         - containerPort: 8080
         livenessProbe:
